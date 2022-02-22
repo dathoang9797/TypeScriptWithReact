@@ -1,4 +1,23 @@
-  {/* <Person name={personName} />
+  const personName = {
+    first: "Burce",
+    last: "Wayne"
+  }
+
+  const nameList = [
+    {
+      first: "Burce",
+      last: "Wayne"
+    },
+    {
+      first: "Clark",
+      last: "Kent"
+    },
+    {
+      first: "Princess",
+      last: "Diana"
+    }
+  ]  
+{/* <Person name={personName} />
       <PersonLists names={nameList} />
       <Status status='error' />
       <Oscar>
